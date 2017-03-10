@@ -39,3 +39,4 @@ Developing
 Developing the CLI locally requires go and node.
 
 To run the CLI locally, use the `./bin/run` script. If you want to install the dev version of the CLI, run `make install`.
+
