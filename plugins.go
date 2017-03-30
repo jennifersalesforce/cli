@@ -273,6 +273,7 @@ cmd.run(ctx)
 		cmd.Stderr = os.Stderr
 		err = cmd.Run()
 		done()
+		herokuProfile.Stop()
 		Exit(getExitCode(err))
 	}
 }

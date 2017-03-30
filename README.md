@@ -17,6 +17,14 @@ To get started see <https://devcenter.heroku.com/start>
 
 Overview
 ========
+This branch adds heroku layer golang profiling feature in sfdx branch code.
+
+1. make a build
+make build
+2. cd tmp\dev\heroku\bin
+./sfdx force:alias:list
+3. anaylysis trace.out
+go tool trace trace.out
 
 This is the next generation Go/Node-based Heroku CLI.  The goals of this project were to make plugins more flexible, remove Ruby as a runtime dependency, and make the CLI faster.
 
